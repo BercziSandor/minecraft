@@ -1,3 +1,5 @@
 cache
 *.log
+data/*/logs/*.gz
 *.jar
+*.dat_old
