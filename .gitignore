@@ -4,4 +4,5 @@ cache
 *.jar
 *.dat_old
 
+mc-paper/plugins
 mc-forge/libraries
