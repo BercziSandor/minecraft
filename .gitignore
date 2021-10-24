@@ -1,5 +1,7 @@
 cache
 *.log
-data/*/logs/*.gz
+*/logs/*.gz
 *.jar
 *.dat_old
+
+mc-forge/libraries
