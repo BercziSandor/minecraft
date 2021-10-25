@@ -7,20 +7,24 @@ version: "3.8"
 services:
   mc:
     image: itzg/minecraft-server
-    ports:
-    # expose the Minecraft server port outside of container
-    - "25565:25565"
     environment:
-      # REQUIRED for all types
-      EULA: "TRUE"
-      TZ: "Europe/Budapest"
-      # Set server type (vs the default of vanilla)
       TYPE: FORGE
-      DEBUG: "true"
+      EULA: "true"
+      TZ: "Europe/Budapest"
+      # DEBUG: "true"
 
       # Not the latest version
       # VERSION: 1.12.2
       # FORGEVERSION: 14.23.5.2854
+
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+
+    ports:
+    # expose the Minecraft server port outside of container
+    - "25565:25565"
+
     volumes:
       - ./mc-forge:/data
       - ./mc-forge/mods:/mods:ro
