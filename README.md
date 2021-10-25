@@ -13,19 +13,17 @@ With git:
 git clone https://github.com/BercziSandor/minecraft.git
 ```
 
-With wget:
+With wget (read only!)
 ```bash
 wget https://github.com/BercziSandor/minecraft/archive/refs/heads/main.zip
 unzip main.zip
 cd minecraft-main
 ```
 
-Via browser:
+Via browser (read only!)
 [link](https://github.com/BercziSandor/minecraft/archive/refs/heads/main.zip)
 
-
 ### Run
-
 ```bash
 minecraft/run_forge.sh
 ```
