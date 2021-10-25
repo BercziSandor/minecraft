@@ -13,6 +13,7 @@ services:
     environment:
       # REQUIRED for all types
       EULA: "TRUE"
+      TZ: "Europe/Budapest"
       # Set server type (vs the default of vanilla)
       TYPE: FORGE
       DEBUG: "true"
@@ -21,9 +22,8 @@ services:
       # VERSION: 1.12.2
       # FORGEVERSION: 14.23.5.2854
     volumes:
-    # use a named, managed volume for data volume
-    - ./mc-forge:/data
-    - ./mc-forge/mods:/mods:ro
+      - ./mc-forge:/data
+      - ./mc-forge/mods:/mods:ro
 
 volumes:
   # declared the named volume, but use default/local storage engine
