@@ -22,9 +22,8 @@ services:
       # FORGEVERSION: 14.23.5.2854
     volumes:
     # use a named, managed volume for data volume
-    - mc_forge:/data
-    - ./mc-forge/mods:/mods:ro
-    - ./mc-forge:/data
+    - mc-forge:/data
+    - mc-forge/mods:/mods:ro
 
 volumes:
   # declared the named volume, but use default/local storage engine
