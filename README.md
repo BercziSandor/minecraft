@@ -11,6 +11,7 @@ Prerequisits:
 With git:
 ```bash
 git clone https://github.com/BercziSandor/minecraft.git
+cd minecraft
 ```
 
 With wget (read only!)
@@ -25,7 +26,8 @@ Via browser (read only!)
 
 ### Run
 ```bash
-minecraft/run_forge.sh
+./run_paper.sh
+# ./run_forge.sh
 ```
 
 
