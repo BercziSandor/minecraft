@@ -1,13 +1,13 @@
 # Minecraft server
 The repo is based on https://github.com/itzg/docker-minecraft-server.
 
-## Usage
+## 1 Usage
 Prerequisits:
  - [Docker Desktop](https://www.docker.com/products/docker-desktop) -> `choco install docker-desktop`
  - (git?)
 
 
-### Getting source
+### 1.1 Getting source
 With git:
 ```bash
 git clone https://github.com/BercziSandor/minecraft.git
@@ -24,14 +24,14 @@ cd minecraft-main
 Via browser (read only!)
 [link](https://github.com/BercziSandor/minecraft/archive/refs/heads/main.zip)
 
-### Run
+### 1.2 Run
 ```bash
 ./run_paper.sh
 # ./run_forge.sh
 ```
 
 
-## Server configuration
+## 2 Server configuration
 You can put among others these varables to the `environment` section of the compose files.
 For details see [here](https://github.com/itzg/docker-minecraft-server#server-configuration)
 
@@ -56,8 +56,8 @@ PVP=true
 # LEVEL_TYPE: see https://github.com/itzg/docker-minecraft-server#level-type-and-generator-settings
 ```
 
-## Kubernetes
-### Docker-compose -> k8s
+## 3 Kubernetes
+### 3.1 Docker-compose -> k8s
 
 ```bash
 # https://kubernetes.io/docs/tasks/configure-pod-container/translate-compose-kubernetes/
@@ -65,16 +65,12 @@ kompose convert -f docker-compose-paper.yml
 ...
 ```
 
-## Types of servers
-### Forge
+## 4 Types of servers
+### 4.1 Forge
 Links:
  - [itzg](https://github.com/itzg/docker-minecraft-server#running-a-forge-server)
  - [Official site](https://forums.minecraftforge.net/)
 
-### Paper
+### 4.2 Paper
  - [itzg](https://github.com/itzg/docker-minecraft-server#running-a-paper-server)
  - [Official site](https://papermc.io/)
-
-
-
-#
