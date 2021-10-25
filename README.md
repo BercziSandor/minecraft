@@ -20,6 +20,10 @@ unzip main.zip
 cd minecraft-main
 ```
 
+Via browser:
+[link](https://github.com/BercziSandor/minecraft/archive/refs/heads/main.zip)
+
+
 ### Run
 
 ```bash
