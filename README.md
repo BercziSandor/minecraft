@@ -1,7 +1,34 @@
 # Minecraft server
 The repo is based on https://github.com/itzg/docker-minecraft-server.
 
+## Usage
+Prerequisits:
+ - [Docker Desktop](https://www.docker.com/products/docker-desktop) -> `choco install docker-desktop`
+ - (git?)
+
+
+### Getting source
+With git:
+```bash
+git clone https://github.com/BercziSandor/minecraft.git
+```
+
+With wget:
+```bash
+wget https://github.com/BercziSandor/minecraft/archive/refs/heads/main.zip
+unzip main.zip
+cd minecraft-main
+```
+
+### Run
+
+```bash
+minecraft/run_forge.sh
+```
+
+
 ## Server configuration
+You can put among others these varables to the `environment` section of the compose files.
 For details see [here](https://github.com/itzg/docker-minecraft-server#server-configuration)
 
 ```bash
