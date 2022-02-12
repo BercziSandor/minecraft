@@ -1,1 +1,1 @@
--Xms1G -Xmx1G
+-Xmx1G -Xms1G
