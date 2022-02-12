@@ -10,6 +10,8 @@ services:
       TZ: "Europe/Budapest"
       # valid versions: 1.8.8 1.9.4 1.10.2 1.11.2 1.12.2 1.13.2 1.14.4 1.15.2 1.16.5 1.17.1
       # VERSION: 1.17.1
+      SERVER_NAME: "Minecraft Server - Berczi"
+      MOTD: "Have a nice Crafting"
       SPIGET_RESOURCES: "9089,9089"
       CONSOLE: "false"
     restart: unless-stopped

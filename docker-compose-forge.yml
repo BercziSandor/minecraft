@@ -12,6 +12,8 @@ services:
       EULA: "true"
       TZ: "Europe/Budapest"
       # DEBUG: "true"
+      SERVER_NAME: "Minecraft Server - Berczi"
+      MOTD: "Have a nice Crafting"
 
       # Not the latest version
       # VERSION: 1.12.2

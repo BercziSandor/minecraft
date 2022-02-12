@@ -11,7 +11,7 @@ services:
       # TYPE: VANILLA
 
       TZ: "Europe/Budapest"
-      SERVER_NAME: "Our Minecraft Server"
+      SERVER_NAME: "Minecraft Server - Berczi"
       MOTD: "Have a nice Crafting"
       CONSOLE: "false"
 
