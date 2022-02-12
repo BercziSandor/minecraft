@@ -1,8 +1,11 @@
 cache
 *.log
-*/logs/*.gz
+**/logs/*.*
 *.jar
 *.dat_old
 
-mc-paper/plugins
-mc-forge/libraries
+overviewer-data
+data/paper/plugins
+data/paper/libraries
+data/forge/libraries
+data/vanilla/libraries

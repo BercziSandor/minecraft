@@ -1,4 +1,14 @@
-# Minecraft server
+1. [1 Usage](#1-usage)
+   1. [1.1 Getting source](#11-getting-source)
+   2. [1.2 Run](#12-run)
+2. [2 Server configuration](#2-server-configuration)
+3. [3 Kubernetes](#3-kubernetes)
+   1. [3.1 Docker-compose -> k8s](#31-docker-compose---k8s)
+4. [4 Types of servers](#4-types-of-servers)
+   1. [4.1 Forge](#41-forge)
+   2. [4.2 Paper](#42-paper)
+
+
 The repo is based on https://github.com/itzg/docker-minecraft-server.
 
 ## 1 Usage

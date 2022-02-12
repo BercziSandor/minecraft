@@ -1,4 +1,4 @@
-version: "3.8"
+version: '3.8'
 # https://github.com/itzg/docker-minecraft-server#running-a-forge-server
 
 # https://forums.minecraftforge.net/forum/7-releases/
@@ -26,8 +26,10 @@ services:
     - "25565:25565"
 
     volumes:
-      - ./mc-forge:/data
-      - ./mc-forge/mods:/mods:ro
+      - ./data/forge:/data
+      - ./data/forge/mods:/mods:ro
+      - ./worlds/forge:/worlds:ro
+
 
 volumes:
   # declared the named volume, but use default/local storage engine
