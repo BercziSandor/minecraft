@@ -12,6 +12,9 @@ update:
 	sudo docker pull itzg/minecraft-server
 	sudo docker pull mide/minecraft-overviewer
 
+clean:
+	git clean -dfX
+
 generate-map-vanilla:
 	time sudo docker run \
 		-e MINECRAFT_VERSION="1.18.1" \
