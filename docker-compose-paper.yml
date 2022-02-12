@@ -12,8 +12,9 @@ services:
       # VERSION: 1.17.1
       SERVER_NAME: "Minecraft Server - Berczi"
       MOTD: "Have a nice Crafting"
-      SPIGET_RESOURCES: "9089,9089"
-      CONSOLE: "false"
+      # See: https://github.com/itzg/docker-minecraft-server#auto-downloading-spigotmcbukkitpapermc-plugins
+      # SPIGET_RESOURCES: "28140"
+      CONSOLE: "true"
     restart: unless-stopped
     tty: true
     stdin_open: true
